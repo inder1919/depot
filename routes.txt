@@ -1,0 +1,8 @@
+(in C:/Users/isingh33/Desktop/Rails 3/depot)
+    products GET    /products        {:action=>"index", :controller=>"products"}
+             POST   /products         {:action=>"create", :controller=>"products"}
+ new_product GET    /products/new      {:action=>"new", :controller=>"products"}
+edit_product GET    /products/:id/edit {:action=>"edit", :controller=>"products"}
+     product GET    /products/:id     {:action=>"show", :controller=>"products"}
+             PUT    /products/:id     {:action=>"update", :controller=>"products"}
+             DELETE /products/:id      {:action=>"destroy", :controller=>"products"}

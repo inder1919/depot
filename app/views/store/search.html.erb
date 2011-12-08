@@ -1,0 +1,12 @@
+<% if notice %>
+<p id="notice" ><%= notice %></p>
+<% end %>
+
+<p>Search For Products</p>
+
+ <%= form_tag 'find_products' do %>
+     <%= text_field_tag :keywords %>
+     <%= select_tag :category, options_for_select([["All","All"], ["Books","Books"],["Movies","Movies"],["Music","Music"]], @category) %>
+     <%= submit_tag 'Search' %>
+ <% end %>
+ 

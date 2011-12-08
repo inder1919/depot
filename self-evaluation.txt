@@ -1,0 +1,25 @@
+This self-evaluation should be submitted along with your assignment.
+The fancy AJAX shopping cart works as described in chapter 11.
+        Available [2] Self-Eval [2]
+The checkout process works as described in chapter 12.
+Available [2] Self-Eval [2]
+Search link appears in the sidebar which takes user to a search form.
+Available [0.5] Self-Eval [0.5 ]
+The search is performed on product titles.
+Available [0.5] Self-Eval [ 0.5]
+User can search within the entire catalogue.
+Available [1] Self-Eval [1 ]
+User can search within a specific category specified by a dropdown menu.
+Available [1] Self-Eval [ 1]
+If no products are found, the user will be redirected back to the search view where they will be presented with an appropriate “no products found” error message.
+Available [1] Self-Eval [ 1]
+Search form built correctly using form_tag and associated *_tag helpers.
+Available [1] Self-Eval [ 1]
+The search is performed whole and partial are matches are returned. For example, searching for the letter e should return all products with an e in the title.
+        Available [1] Self-Eval [ 1]
+Shopping cart works on the search results page.
+        Available [0.5] Self-Eval [ 0.5]
+The search results are displayed using the products partial used by the index, books, movies, and music pages.
+        Available [0.5] Self-Eval [ 0.5]
+Total:
+Available [11]  Self Eval [ 11]
